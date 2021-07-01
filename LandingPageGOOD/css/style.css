@@ -13,7 +13,10 @@ body {
   font-family: "Open Sans", sans-serif;
   overflow-x: hidden;
 }
-
+.minimiMama {
+  width: 1px;
+  
+  }
 a {
   color: #009FE3;
   transition: 0.5s;
@@ -1112,6 +1115,65 @@ justify-content: center;
   background: rgba(0, 0, 0, 0.7);
 }
 
+
+/* Unete a nosotros
+--------------------------------*/
+#unete {
+  background: linear-gradient(rgba(0, 52, 149, 0.65), rgba(0, 102, 89, 0.2)), url(../img/call-to-action-bg.jpg) fixed center center;
+  background-size: cover;
+  padding: 80px 0;
+
+ 
+}
+.unionmamalona {
+  padding: 80px 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+#unete .cta-title {
+  color: #fff;
+  font-size: 28px;
+  font-weight: 700;
+  display: flex;
+justify-content: center;
+  
+}
+
+#unete .cta-text {
+  color: #fff;
+}
+
+@media (min-width: 769px) {
+  #unete .cta-btn-container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+}
+
+#unete .cta-btn {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 30px;
+  border-radius: 25px;
+  transition: background 0.5s;
+  margin: 10px;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+#unete .cta-btn:hover {
+  background: #0066FF;
+  border: 2px solid #0066FF;
+}
+
+
+
+
+
 /* Contact Section
 --------------------------------*/
 #contact {
@@ -1261,3 +1323,7 @@ justify-content: center;
 
 
 
+.minimiMama {
+width: 1px;
+
+}
