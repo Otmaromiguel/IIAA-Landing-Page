@@ -10,7 +10,7 @@
 body {
   background: #fff;
   color: #666666;
-  font-family: "Open Sans", sans-serif;
+  font-family: "DIN 30640 std", sans-serif;
   overflow-x: hidden;
 }
 .minimiMama {
@@ -34,7 +34,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "sf intellivised bold italic", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
   padding: 0;
@@ -109,12 +109,12 @@ width: 140px;
     margin-top: 0;
   }
   #header #logo img {
-    max-height: 30px;
+    max-width: 90px;
   }
 }
 
 #header.header-fixed {
-  background: linear-gradient(45deg, #0079A7, #0066FF);
+  background: linear-gradient(45deg, #000068, #000068);
   padding: 20px 0;
   height: 72px;
   transition: all 0.5s;
@@ -482,11 +482,11 @@ width: 140px;
 }
 
 #mobile-nav ul .menu-has-children i.fa-chevron-up {
-  color: #0066FF;
+  color: #fffF;
 }
 
 #mobile-nav ul .menu-item-active {
-  color: #0066FF;
+  color: #fff;
 }
 
 #mobile-body-overly {
@@ -537,7 +537,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 60px;
   height: 3px;
   background: #0066FF;
-  background: linear-gradient(0deg, #0066FF 0%, #0079A7 100%);
+  background: linear-gradient(0deg, #fff 0%, #fff 100%);
   margin: 0 auto;
   margin-bottom: 20px;
 }
@@ -546,6 +546,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 .section-bg {
   background: #eff5f5;
+}
+
+.section-paster {
+  background:linear-gradient(40deg, white, #8F8F8F);
+}
+
+.section-fondoimg {
+
+  background: url(../img/Grisito.jpg) fixed center center;
+  background-size: cover;
+  padding: 80px 0;
+
 }
 
 /* About Us Section
@@ -682,6 +694,11 @@ body.mobile-nav-active #mobile-nav-toggle {
 #advanced-features .features-row {
   padding: 60px 0 30px 0;
 }
+#advanced-features h1 {
+  font-size: 45px;
+  font-weight: 700;
+  color: #000;
+}
 
 #advanced-features h2 {
   font-size: 26px;
@@ -699,12 +716,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #advanced-features p {
   line-height: 24px;
-  color: #777;
+  color: #000;
   margin-bottom: 30px;
 }
 
 #advanced-features i {
-  color: #666666;
+  color: #000;
   font-size: 64px;
   transition: 0.5s;
   float: left;
@@ -899,6 +916,19 @@ justify-content: center;
   text-align: center;
 }
 
+#pricing .box:hover {
+  background: #000068;
+color: white;
+  transform: scale(1.05);
+}
+
+#pricing .box:hover i {
+  color: #FFF;
+
+
+}
+
+
 #pricing h3 {
   font-weight: 400;
   margin-bottom: 15px;
@@ -952,7 +982,7 @@ justify-content: center;
 }
 
 #pricing .featured {
-  border: 2px solid #0066FF;
+  border: 2px solid #000068;
 }
 
 #pricing .featured .get-started-btn {
@@ -1325,5 +1355,19 @@ justify-content: center;
 
 .minimiMama {
 width: 1px;
+
+}
+
+.justificar {
+
+  text-align: justify;
+
+}
+
+.texto-fundador {
+text-align: justify;
+font-size: 38px;
+color: black;
+
 
 }
